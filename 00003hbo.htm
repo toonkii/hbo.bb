@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Events - www.hbo.bb</title>
+
+<meta charset="UTF-8">
+<meta name="description" content="the harry bayley observatory, website of the barbados astronomical society.">
+<meta name="keywords" content="astronomy, astronomical, society, amateur, astronomers, observatory, harry, bayley, barbados">
+<meta name="owner" content="harrybayleyobservatory@gmail.com">
+<meta name="author" content="the barbados astronomical society">
+<meta name="rating" content="general">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="30 days">
+
+<link rel="stylesheet" href="styles5.css">
+
+<style type="text/css">
+<!--
+a{text-decoration:none}
+//-->
+</style>
+
+<style type="text/css">
+body
+{
+background-image:c://graphics ('bg_www_hbobb7.png');
+background-repeat:repeat-xy;
+}
+</style>
+
+<style type="text/css">
+
+.main {
+width:200px;
+border:1px solid black;
+}
+
+.month {
+background-color:black;
+font:bold 12px verdana;
+color:white;
+}
+
+.daysofweek {
+background-color:gray;
+font:bold 12px verdana;
+color:white;
+}
+
+.days {
+font-size: 12px;
+font-family:verdana;
+color:black;
+background-color: lightyellow;
+padding: 2px;
+}
+
+.days #today{
+font-weight: bold;
+color: #ffa272;
+}
+</style>
+
+<script type="text/javascript" src="basiccalendar.js">
+/***********************************************
+* Basic Calendar-By Brian Gosselin at http://scriptasylum.com/bgaudiodr/
+* Script featured on Dynamic Drive (http://www.dynamicdrive.com)
+* This notice must stay intact for use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+</script> 
+</head>
+
+<body background="graphics/bg_www_hbobb7.png">
+
+<center>
+<table border="0" bgcolor="#f8eee7" width="1000" cellspacing="20" cellpadding="1">
+<tr align="left" valign="top">
+<th colspan="2" width="100%" bgcolor="#f8eee7" background="graphics/bg_basinc9.png">
+<p align="left">
+<a href="index.htm"><IMG SRC="graphics/button_tanarrow_left.png" border="0" width="35" height="53" ALT="To Menu"></a>
+<h1><b>Harry Bayley Observatory Events 2019</h1>
+</p></th>
+</tr>
+
+<tr>
+<td align="left" valign="top">
+
+<h2></h2>
+<p id="p01" align="left">
+<b></b><br>
+</p>
+</td>
+
+<td align="right" valign="top">
+
+<script type="text/javascript">
+var todaydate=new Date()
+var curmonth=todaydate.getMonth()+1 //get current month (1-12)
+var curyear=todaydate.getFullYear() //get current year
+</script>
+
+<table border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td width="33%">
+<script>
+document.write(buildCal(curmonth ,curyear, "main", "month", "daysofweek", "days", 1));
+</script>
+
+<br>
+<br>
+<br>
+
+<script type="text/javascript">
+var todaydate=new Date()
+var curmonth=todaydate.getMonth()+1 //get current month (1-12)
+var curyear=todaydate.getFullYear() //get current year
+</script>
+
+<script>
+document.write(buildCal(curmonth+1 ,curyear, "main", "month", "daysofweek", "days", 1));</script>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+</center>
+</BLOCKQUOTE>
+</body>
+</html>
